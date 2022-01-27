@@ -1,7 +1,7 @@
 .scroll-container {
     position: absolute;
     text-align: center;
-    right: 0;
+    right: 10px;
     margin-right: 9px;
     overflow: hidden;
     flex-direction: column;
@@ -12,6 +12,7 @@
   @media only screen and (min-width: 475px) {
     .scroll-container {
       margin-bottom: 10px;
+      right: 10px;
     }
   }
   .btn-scroll {

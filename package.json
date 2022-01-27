@@ -1,14 +1,14 @@
 {
-  "name": "portfolio",
+  "name": "juanquiros-portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "juanquiros-portfolio": "npm start --prefix juanquiros-portfolio",
-    "dev": "concurrently \"npm run  server\" \"npm run juanquiros-portfolio\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix juanquiros-portfolio && npm run  build --prefix juanquiros-portfolio"
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run  server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run  build --prefix client"
   },
   "author": "",
   "license": "ISC",
