@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
     "juanquiros-portfolio": "npm start --prefix juanquiros-portfolio",
-    "dev": "concurrently \"npm run  server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix juanquiros-portfolio && npm run  build --prefix juanquiros-portfolio"
+    "dev": "concurrently \"npm run  server\" \"npm run juanquiros-portfolio\"",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix juanquiros-portfolio && npm run  build --prefix juanquiros-portfolio"
   },
   "author": "",
   "license": "ISC",
