@@ -3,14 +3,15 @@ import "./Footer.css";
 import ScrollService from "../../utilities/scrollService";
 export default function Footer() {
   return (
-    <div className="scroll-container">
-      <button
-        className="btn-scroll"
-        onClick={() => ScrollService.scrollHandler.scrollToHome()}
-      >
-        {" "}
-        <i className="fa fa-arrow-up"></i>
-      </button>
+    <div >
+        <ScrollUp />
+        <div className="footer-container">
+            <div className='footer-parent'>
+                <img src= {FooterWave}
+                alt='no internet connection'
+                className="footer-img" />
+            </div>
+        </div>
     </div>
   );
 }
