@@ -12,7 +12,10 @@ export default function Footer() {
             <div className='footer-parent'>
                 <img src= {FooterWave}
                 alt='no internet connection'
-                className="footer-img"></img>
+                className="footer-img" />
             </div>
 
         </div>
+    </div>
+  );
+}
