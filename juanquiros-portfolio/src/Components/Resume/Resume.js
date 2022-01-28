@@ -4,7 +4,6 @@ import ScrollService from "../../utilities/scrollService";
 import Animations from "../../utilities/Animations";
 import "./Resume.css";
 
-
 const Resume = (props) => {
   /* STATES */
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0);
@@ -34,7 +33,7 @@ const Resume = (props) => {
           )}
         </div>
         <div className="resume-sub-heading">
-          <span>{props.subHeading ? props.subHeading : ""}<i className={props.icon1}/><i className={props.icon2}/><i className={props.icon3}/><i className={props.icon4}/></span>
+          <span>{props.subHeading ? props.subHeading : ""}</span>
         </div>
         <div className="resume-heading-description">
           <span>{props.description ? props.description : ""}</span>
@@ -67,34 +66,21 @@ const Resume = (props) => {
       duration: { fromDate: "2020", toDate: "2021" },
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
-      subHeading: "Technologies Used: ",
-      icon1 : "fab fa-react",
-      icon2 : "fab fa-js-square",
-      icon3 : "fab fa-html5",
-      icon4 : "fab fa-css3-alt"
+      subHeading: "Technologies Used: React Js, Bootstrap",
     },
     {
       title: "Coronavirus Cases Tracker",
       duration: { fromDate: "2019", toDate: "2019" },
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
-      subHeading: "Technologies Used: ",
-      icon1 : "fab fa-react",
-      icon2 : "fab fa-js-square",
-      icon3 : "fab fa-html5",
-      icon4 : "fab fa-css3-alt"
+      subHeading: "Technologies Used: React Js, Bootstrap",
     },
     {
       title: "STEAM Interactive Books",
       duration: { fromDate: "2019", toDate: "2020" },
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
-      subHeading: "Technologies Used: ",
-      icon1 : "fab fa-react",
-      icon2 : "fab fa-js-square",
-      icon3 : "fab fa-html5",
-      icon4 : "fab fa-css3-alt"
-
+      subHeading: "Technologies Used: React Js, Bootstrap",
     },
   ];
   const resumeDetails = [
@@ -190,10 +176,6 @@ const Resume = (props) => {
           description={projectsDetails.description}
           fromDate={projectsDetails.duration.fromDate}
           toDate={projectsDetails.duration.toDate}
-          icon1={projectsDetails.icon1}
-          icon2={projectsDetails.icon2}
-          icon3={projectsDetails.icon3}
-          icon4={projectsDetails.icon4}
         />
       ))}
     </div>,
