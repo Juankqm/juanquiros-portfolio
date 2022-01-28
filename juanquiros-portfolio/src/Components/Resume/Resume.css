@@ -19,11 +19,7 @@
     height: 100%;
     width: 320px;
   }
-  .resume-screen-container i{
-    color:#1f2235;
-    font-size: 20px;
-    margin-left: 5px;
-  }
+  
   .resume-bullet-details {
     flex-grow: 1;
     width: 600px;
@@ -119,6 +115,7 @@
     font-size: 16px;
     font-family: "Poppins SemiBold";
   }
+  
   .experience-description {
     max-width: 100%;
   }
