@@ -1,9 +1,6 @@
 import React from "react";
 import "./Footer.css";
-
-import ScrollUp from './ScrollUp/ScrollUp';
-import FooterWave from '../../assets/Footer/footerWave.svg';
-
+import ScrollService from "../../utilities/scrollService";
 export default function Footer() {
   return (
     <div >
@@ -14,7 +11,6 @@ export default function Footer() {
                 alt='no internet connection'
                 className="footer-img" />
             </div>
-
         </div>
     </div>
   );
