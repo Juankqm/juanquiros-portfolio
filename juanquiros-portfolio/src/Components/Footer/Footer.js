@@ -1,6 +1,9 @@
 import React from "react";
 import "./Footer.css";
-import ScrollService from "../../utilities/scrollService";
+
+import ScrollUp from './ScrollUp/ScrollUp';
+import FooterWave from '../../assets/Footer/wave.svg';
+
 export default function Footer() {
   return (
     <div >
@@ -9,8 +12,9 @@ export default function Footer() {
             <div className='footer-parent'>
                 <img src= {FooterWave}
                 alt='no internet connection'
-                className="footer-img" />
+                className="footer-img"></img>
             </div>
+
         </div>
     </div>
   );
