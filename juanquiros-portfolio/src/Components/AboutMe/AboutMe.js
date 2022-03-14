@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./AboutMe.css";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/scrollService";
@@ -14,7 +13,7 @@ const AboutMe = (props) => {
 
   const SCREEN_CONST = {
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dapibus a ex eu vulputate. Ut arcu magna, ultricies ac pulvinar ac, iaculis vitae urna. Pellentesque nec nisl ac velit rhoncus varius. Cras porta feugiat dignissim. Nulla a fringilla magna. Aliquam luctus augue quis ligula suscipit sodales. In hendrerit ipsum vitae.",
+    "Enthusiastic systems engineer with junior level understanding of entire software development lifecycle. Professional junior Oracle developer and self taught Front-End Developer with technologies such as React Js. Passionate about learning every single thing on my way to become a full stack engineer",
     highlights: {
       bullets: [
         "Systems Engineer",

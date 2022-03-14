@@ -66,7 +66,7 @@ const Resume = (props) => {
       title: "Personal Portfolio WebSite",
       duration: { fromDate: "2020", toDate: "2021" },
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
+        "Biggest project from my repositories section created while practicing and learning new features from this great library which is React.",
       subHeading: "Technologies Used: ",
       icon1 : "fab fa-react",
       icon2 : "fab fa-js-square",
@@ -77,7 +77,7 @@ const Resume = (props) => {
       title: "Coronavirus Cases Tracker",
       duration: { fromDate: "2019", toDate: "2019" },
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
+        "React js project created in order to track coronavirus cases around the world.",
       subHeading: "Technologies Used: ",
       icon1 : "fab fa-react",
       icon2 : "fab fa-js-square",
@@ -88,7 +88,7 @@ const Resume = (props) => {
       title: "STEAM Interactive Books",
       duration: { fromDate: "2019", toDate: "2020" },
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin sit amet ex ut elementum. In hac habitasse platea dictums",
+        "Web App created during my College Community Service, implementing React js as client side and Java Spring Boot for server side.",
       subHeading: "Technologies Used: ",
       icon1 : "fab fa-react",
       icon2 : "fab fa-js-square",
@@ -136,9 +136,8 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+          Create online services and apps hosted on cloud with Oracle
+          DataBase as well as Oracle APEX.
           </span>
         </div>
         
@@ -152,12 +151,10 @@ const Resume = (props) => {
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.            Currently working as MERN stack web and mobile developer and also an
-            online instructor on udemy.
+          Be part of a break-and-fix team providing support about
+          Microsoft Azure API Management
           </span>
         </div>
-        
       </div>
 
     </div>,
@@ -202,15 +199,15 @@ const Resume = (props) => {
     <div className="resume-screen-container" key="interests">
       <ResumeHeading
         heading="Soccer"
-        description="Apart from being a tech enthusiast and a code writer, i also love to teach people what i know simply because i believe in sharing."
+        description="Apart from being a tech enthusiast and a code writer, I also love to share time with my friends playing soccer once a week."
       />
       <ResumeHeading
         heading="Music"
-        description="Listening to soothing music is something i can never compromise with, skimming through Spotify's pop songs charts is at times the best stress reliever that i can get my hands on."
+        description="Listening to music is something I can never compromise with, Spotify is one of the apps that I use the most every day."
       />
       <ResumeHeading
-        heading="Competitive Gaming"
-        description="I like to challenge my reflexes a lot while competing in football games, pushing the rank and having interactive gaming sessions excites me the most."
+        heading="Video Games"
+        description="Playing video games with my friends is a way to do something diferrent from the routine and a thing that I really enjoy."
       />
     </div>,
   ];

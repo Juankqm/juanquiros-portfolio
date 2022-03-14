@@ -35,11 +35,9 @@ const Profile = () => {
                   steps={[
                     "Systems Engineer",
                     1500,
-                    "Oracle pl/sql Developer",
+                    "Jr Oracle Developer",
                     1500,
-                    "Oracle APEX Developer",
-                    1500,
-                    "Front End Developer",
+                    "Jr Front End Developer",
                     1500,
                   ]}
                 />
